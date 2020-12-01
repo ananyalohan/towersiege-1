@@ -45,7 +45,7 @@ function setup(){
     //top
     box15 = new Box(700,170,60,60);
 
-    polygon= Bodies.circle(50,200,6,20, {density: 1});
+    polygon= Bodies.circle(50,200,6,{density: 1});
     World.add(world,polygon);
    
     slingshot = new Slingshot(this.polygon,{x: 200,y:100});
